@@ -41,7 +41,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: rgb(171, 208, 221);
+  background-color: hsl(212, 45%, 89%);
 }
 
 /* A elements that don't have a class get default styles */
@@ -88,29 +88,32 @@ select {
     width: 400px;
     margin-top: 90px;
     border-radius: 30px;
-    height: 550px;
+    height: 560px;
+    box-shadow: black 2px 2px solid;
 }
 
 .image img {
     text-align: center;
     align-items: center;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 310px;
     border-radius: 20px;
     margin-top: 40px;
+    transform: translate(0, 20px);
 }
 
 .qr h1 {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
     justify-content: justify;
-    margin-top: 20px;
+    margin-top: 40px;
     
 }
 
 .qr > h3 {
     color: rgb(167, 163, 163);
     font-family: 'Outfit', sans-serif;
-    margin-top: 20px;
+    margin-top: 15px;
+    font-weight: 300;
 }
