@@ -39,6 +39,9 @@ html:focus-within {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: hsl(212, 45%, 89%);
@@ -86,7 +89,6 @@ select {
     text-align: center;
     margin: auto;
     width: 400px;
-    margin-top: 90px;
     border-radius: 30px;
     height: 560px;
     box-shadow: black 2px 2px solid;
